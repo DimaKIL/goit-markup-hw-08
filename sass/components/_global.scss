@@ -11,7 +11,7 @@ body {
   .conteiner{
     margin: 0 auto;
     padding: 0 15px;
-  }
+    }
   img {
     display: block;
     max-width: 100%;
@@ -24,4 +24,10 @@ body {
   }
   .link{
     text-decoration: none;
+  }
+  @media screen and (min-width: 480px) {
+    
+    .conteiner{
+      width: 480px;
+    }
   }

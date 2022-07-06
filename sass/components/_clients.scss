@@ -24,12 +24,11 @@
         align-items: center;
         width: 210px;
         height: 92px;
-        margin-bottom: 30px;
         cursor: pointer;
         fill: $fill-icon;
         border: 1px solid $fill-icon;
         border-radius: 4px;
-        // padding: 16px 52px;
+        padding: 16px 52px;
         transition: fill 250ms $cubic,
         border-color 250ms $cubic;
       }

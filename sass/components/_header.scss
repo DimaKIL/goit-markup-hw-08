@@ -66,12 +66,14 @@ text-align: center;
 letter-spacing: 0.02em;
 }
 .header-contact__mail{
-    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
 font-weight: 500;
-font-size: 34px;
+font-size: 28px;
 line-height: 40px;
 color: $grey-color;
 letter-spacing: 0.02em;
+
 }
 .header-contact__tel{
     font-style: normal;
@@ -104,6 +106,7 @@ color: $black-color;
 .header__join{
     display: flex;
     margin-top: 64px;
+    flex-wrap: wrap;
 }
 .header__link-join{
     font-style: normal;

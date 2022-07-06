@@ -1,0 +1,117 @@
+.header-line{
+    width: 100vw;
+    border-bottom: 1px solid $background-grey;
+  }
+  .header{
+    width: 1200px;
+    display: flex;
+    &__logo-link {
+        font-family: "Raleway";
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;
+        color: $black-color;
+        letter-spacing: 0.03em;
+        margin-top: 24px;
+        margin-bottom: 25px;
+      }
+      &__logo {
+        color: $blue-color;
+      }
+  }
+//   .conteiner-nav {
+
+//       &__list {
+//         display: flex;
+//         margin-top: 32px;
+//         margin-bottom: 32px;
+//         margin-left: 43px;
+//       }
+//       &__item {
+//         position: relative;
+//         margin-left: 50px;
+//       }
+//       &__item {
+//         list-style: none;
+//       }
+//       &__list .link {
+//         color: $black-color;
+//         text-decoration: none;
+//         font-weight: 500;
+//         font-size: 14px;
+//         line-height: 1.14;
+//         letter-spacing: 0.02em;
+//       }
+//   }
+ 
+.сonteiner-nav__list{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 43px;
+  }
+  .сonteiner-nav__item{
+    position: relative;
+    margin-left: 50px;
+  }
+  .сonteiner-nav__item,
+.header-contact__item {
+  list-style: none;
+}
+.сonteiner-nav__list .link {
+    color: $black-color;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+
+  /* contact */
+  .header-contact {
+      display: flex;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      color: $grey-color;
+      cursor: pointer;
+      text-decoration: none;
+      align-items:center;
+      margin-left: 274px;
+      & .link {
+          text-decoration: none;
+          color: $grey-color;
+        }
+        &__item {
+            list-style: none;
+        }
+        &__icon-mail{
+            vertical-align: -1px;
+            width: 16px;
+            height: 12px;
+            fill: currentColor;
+            margin-right: 5px;
+        }
+        &__icon-tel{
+            vertical-align: bottom;
+            width: 10px;
+            height: 16px;
+            fill: currentColor;
+            margin-right: 5px;
+        }
+    }
+    
+    .tel-tel{
+        margin-left: 30px;
+    }
+    .active::after{
+    position: absolute;  
+     content: '';
+     height: 4px;
+     width: 100%;
+     left: 0;
+     border-radius: 2px;
+     background-color: $blue-color;
+     bottom: -33px;
+    }

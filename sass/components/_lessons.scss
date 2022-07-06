@@ -1,0 +1,44 @@
+.lessons{
+    padding-bottom: 94px;
+    &__tital {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: $black-color;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      &__list {
+        list-style: none;
+        display: flex;
+      }
+      &__box-link{
+        position: relative;
+        display: flex;
+      }
+      &__box-text{
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $background-white;
+      }
+      &__box-text-tital{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        min-height: 70px;
+        font-weight: 700;
+        line-height: 1.14px;
+        text-transform: uppercase;
+        background-color: rgba(47, 48, 58, 0.8);
+      }
+  }
+  .lessons__item:not(:last-child) {
+    margin-right: 30px;
+  }

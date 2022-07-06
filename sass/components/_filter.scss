@@ -1,0 +1,42 @@
+.portfolio__box{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .filter-button {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $black-color;
+    background-color: $background-grey;
+    cursor: pointer;  
+    padding-left: 0;
+    border-radius: 4px; 
+    border: none;
+    padding: 6px 22px 6px 22px;
+    transition: color 250ms $cubic,
+    box-shadow 250ms $cubic,
+    background-color 250ms $cubic;
+  }
+  .portfolio__filter-item:not(:last-child){
+    padding-right: 8px;
+  }
+  
+  .filter-button:hover,
+  .filter-button:focus {
+    color: $white-color;
+    background-color: $blue-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  }
+  .portfolio__filter-list {
+    list-style: none;
+    display: flex;
+    padding-top: 0;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 50px;
+    
+  }

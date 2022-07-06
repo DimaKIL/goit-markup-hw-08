@@ -20,20 +20,20 @@
   <header class="header-line">
     <div class="conteiner header">
    
-      <a lang="en" href="./index.html" class="header__logo-link"><span class="header__logo">Web</span>Studio</a>
-      
-      <nav class="сonteiner-nav">
+      <a lang="en" href="./index.html" class="header__logo-link link"><span class="header__logo">Web</span>Studio</a>
+      <nav class="сonteiner-nav" >
+        <div class="box-header is-open" id="box-header" data-menu>
         
         <ul class="сonteiner-nav__list list">
-          <li class="сonteiner-nav__item"><a href="./index.html" class="link anim-link ">Студия</a></li>
-          <li class="сonteiner-nav__item"><a href="./portfolio.html" class="link anim-link active ">Портфолио</a></li>
-          <li class="сonteiner-nav__item"><a href="./index.html" class="link anim-link ">Контакты</a></li>
+          <li class="conteiner-nav__item"><a href="./index.html" class="link anim-link active conteiner-nav__link">Студия</a></li>
+          <li class="conteiner-nav__item"><a href="./portfolio.html" class="link anim-link conteiner-nav__link ">Портфолио</a></li>
+          <li class="conteiner-nav__item"><a href="./index.html" class="link anim-link conteiner-nav__link ">Контакты</a></li>
         </ul>
-      </nav>
+      
 
       <ul class="header-contact list">
         <li class="header-contact__item ">
-          <a class="link anim-link link-link" href="mailto:info@devstudio.com"> 
+          <a class="link anim-link link-link header-contact__mail" href="mailto:info@devstudio.com"> 
             <svg class="header-contact__icon-mail">
               <use href="./imeges/icon.svg#mail-icon"></use>
             </svg>
@@ -41,7 +41,7 @@
           </a>
         </li>
         <li class="header-contact__item tel-tel">
-          <a class="link anim-link" href="tel:+380961111111">
+          <a class="link anim-link header-contact__tel" href="tel:+380961111111">
             <svg class="header-contact__icon-tel">
               <use href="./imeges/icon.svg#tel-icon"></use>
             </svg>
@@ -49,6 +49,22 @@
           </a>
         </li>
       </ul>
+      <div class="header__join">
+      <a class="header__link-join link" href="">Instagram</a>
+      <a class="header__link-join link" href="">Twitter</a>
+      <a class="header__link-join link" href="">Facebook</a>
+      <a class="header__link-join link" href="">LinkedIn</a>
+      </div>
+      </div>
+    </nav>
+      <button class="header__button anim-icon " type="button" aria-expanded="false" aria-controls="box-header" data-menu-button>
+        <svg class="header__icon " width="40" height="40" aria-label="Переключатель мобильного меню">
+          <use class="icon-menu " href="./imeges/icon.svg#menu"><use>
+          </svg>
+          <svg class="header__icon " width="40" height="40" aria-label="Переключатель мобильного меню">
+              <use class="icon-close " href="./imeges/icon.svg#close"></use>
+            </svg>
+      </button>
       </div>
     </header>
       <main class="portfolio">
@@ -222,6 +238,6 @@
         </div>
         </div>
       </footer>
-    
+      <script src="./js/header.js"></script>
 </body>
 </html>

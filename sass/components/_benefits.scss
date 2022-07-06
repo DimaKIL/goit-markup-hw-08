@@ -5,7 +5,7 @@
   .benefits__item::before{
   content: '';
     display: inline-block;  
-    width: 450px;
+    width: 100%;
     height: 120px;
     background-color: $background-grey;
     margin-bottom: 30px;
@@ -49,6 +49,6 @@
   .benefits__text:not(:last-child){
     margin-bottom: 30px;
   }
-  .benefits__item:not(:last-child) {
-    margin-right: 30px;
-  }
+//   .benefits__item:not(:last-child) {
+//     margin-right: 30px;
+//   }

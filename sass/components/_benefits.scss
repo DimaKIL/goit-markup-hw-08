@@ -52,3 +52,21 @@
   @media screen and (min-width: 480px) {
 
   }
+  @media screen and (min-width: 768px) {
+    .benefits__item::before{
+      display: flex;
+      flex-wrap: wrap;
+        width: 354px;
+  }
+  .benefits__tital {
+   text-align: start;
+  }
+  .benefits__text {
+    width: 354px;
+   }
+   .benefits__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}

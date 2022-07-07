@@ -1,4 +1,5 @@
 .header{
+    position: relative;
 
     height: 60px;
 
@@ -10,9 +11,10 @@
         line-height: 28px;
         letter-spacing: 0.03em;
         color: $black-color;
+        margin-top: auto;
+        margin-bottom: auto;
         position: absolute;
-        top: 16px;
-        
+        bottom: 16px;
     }
     &__logo{
         color: $blue-color;
@@ -69,8 +71,6 @@ text-align: center;
 letter-spacing: 0.02em;
 }
 .header-contact__mail{
-    display: flex;
-    flex-wrap: wrap;
 font-weight: 500;
 font-size: 28px;
 line-height: 40px;
@@ -144,3 +144,95 @@ border-right: 1px solid rgba(33, 33, 33, 0.2);
   @media screen and (min-width: 480px) {
 
   }
+  @media screen and (min-width: 768px) {
+      
+      .header{
+        width: 768px;
+          height: 80px;
+          &__logo-link{
+              top: 24px;
+          }
+          &__button{
+            display: none;
+          }
+          &__join{
+            display: none;
+          }
+      }
+      .box-header{
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 0;
+        z-index: 1;
+    
+        transform: translateY(0%);
+        transition: transform 0ms $cubic;
+        &.is-open{
+            transform: translateY(0%);
+        }
+    }
+    .conteiner-nav__link{
+        font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+    }
+    .header-contact__mail,
+    .header-contact__tel{
+        font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+
+letter-spacing: 0.02em;
+    }
+    .header-contact{
+        margin-left: 600px;
+        margin-top: 21px;
+        &__tel,
+        &__mail{
+            display: flex;
+        }
+    }
+    .conteiner-nav{
+        &__list{
+            position: absolute;
+            display: flex;
+            top: 32px;
+            margin-left: 222px;
+
+
+        }
+        &__item:not(:last-child){
+            margin-right: 50px;
+        }
+    }
+    .header-contact__item:not(:last-child){
+        margin-bottom: 0px;
+    }
+    .header-contact__icon-tel,
+.header-contact__icon-mail{
+    display: block;
+    margin-right: 8px;
+}
+.header-contact__mail{
+    margin-bottom: 10px;
+}
+.header-contact__icon-mail{
+    vertical-align: -1px;
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+  }
+  .header-contact__icon-tel{
+    vertical-align: bottom;
+    width: 10px;
+    height: 16px;
+    fill: currentColor;
+  }
+}

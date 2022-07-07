@@ -106,13 +106,13 @@
   }
   
   .join{
-  padding-top: 12px;
   }
   .sub{
-    padding-top: 12px;
+    display: inline-block;
   }
   .sub__input{
     width: 100%;
+    max-width: 450px;
     height: 50px;
     background-color: $background-black;
     padding: 15px 16px 15px 16px;
@@ -157,5 +157,20 @@
     margin-left: 10px;
   }
   @media screen and (min-width: 480px) {
+
+  }
+  @media screen and (min-width: 768px) {
+    .footer-tablet{
+      display: flex;
+    }
+    .footer-adress{
+      margin-left: 76px;
+    }
+    .join{
+      top: 65px;
+      margin-left: 165px;
+      width: 206px;
+      transform: translateY(-42px);
+    }
 
   }

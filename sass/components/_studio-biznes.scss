@@ -4,7 +4,9 @@
     justify-content: center;
     align-items: center;
     height: 400px;
-    background-color: $background-black;
+    background-image: url(../imeges/header.jpg);
+    background-size: cover;
+    background-position: center;
     &__tital{
         font-style: normal;
 font-weight: 900;

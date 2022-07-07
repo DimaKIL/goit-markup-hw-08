@@ -218,7 +218,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   height: 400px;
-  background-color: #2f303a;
+  background-image: url(../imeges/header.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .biznes__tital {
   font-style: normal;

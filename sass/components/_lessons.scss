@@ -9,6 +9,7 @@
 }
 @media screen and (min-width: 1200px) {
     .lessons{
+      display: block;
         padding-bottom: 94px;
         &__tital {
             font-weight: 700;

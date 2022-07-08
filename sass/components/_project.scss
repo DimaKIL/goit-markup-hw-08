@@ -24,6 +24,9 @@
       transition: box-shadow 250ms $cubic;
     }
     &__info-text{
+      display: flex;
+      padding: 0 24px;
+      align-items: center;
       position: absolute;
       top: 0;
       opacity: 2;
@@ -35,7 +38,6 @@
     line-height: 28px;
     letter-spacing: 0.03em;
     color: $background-white;
-    padding: 63px 24px;
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(101%);
     transition: transform 250ms $cubic;

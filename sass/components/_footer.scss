@@ -73,6 +73,7 @@ margin-bottom: 20px;
   
 }
 .contact-footer__adress {
+  margin: 0 auto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -80,6 +81,7 @@ margin-bottom: 20px;
   color: $white-color;
   font-style: normal;
   margin-top: 20px;
+  width: 231px;
 }
 .contact-footer__mail-box{
   margin-top: 9px;
@@ -220,6 +222,7 @@ line-height: 31px;
   display: flex;
 }
 .sub__bottom{
+  margin: 0 0;
   display: flex;
 }
 .sub__input{

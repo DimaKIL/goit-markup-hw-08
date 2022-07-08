@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+.project-img {
+  width: 450px;
+}
+
 .team-img {
   width: 450px;
 }
@@ -46,11 +50,23 @@ img {
     width: 354px;
   }
 
+  .project-img {
+    width: 354px;
+  }
+
   .conteiner {
     width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
+  .team-img {
+    width: 270px;
+  }
+
+  .project-img {
+    width: 370px;
+  }
+
   .conteiner {
     width: 1200px;
   }
@@ -746,6 +762,7 @@ img {
 }
 
 .contact-footer__adress {
+  margin: 0 auto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -753,6 +770,7 @@ img {
   color: #ffffff;
   font-style: normal;
   margin-top: 20px;
+  width: 231px;
 }
 
 .contact-footer__mail-box {
@@ -918,6 +936,7 @@ img {
   }
 
   .sub__bottom {
+    margin: 0 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

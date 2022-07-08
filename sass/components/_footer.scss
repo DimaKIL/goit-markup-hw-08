@@ -108,10 +108,11 @@ color: $color-a-grey;
 .join{
 }
 .sub{
+  width: 100%;
   display: inline-block;
 }
 .sub__input{
-  width: 100%;
+  width:100%;
   max-width: 450px;
   height: 50px;
   background-color: $background-black;
@@ -152,6 +153,7 @@ margin-bottom: 20px;
   background-color: $blue-color;
   border: 4px solid $blue-color;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .sub__icon{
   margin-left: 10px;

@@ -46,6 +46,9 @@
     fill: $blue-color;
   }
   /* form */
+  .help-checkbox{
+    margin-left: 24px;
+  }
   .form{
     padding: 40px;
     &__tital{
@@ -206,6 +209,7 @@
         overflow: hidden; 
     }
     &__check-icon{
+      position: absolute;
         display: inline-block;
         width: 16px;
         height: 15px;

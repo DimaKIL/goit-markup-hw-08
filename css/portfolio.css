@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6, p {
   width: 450px;
 }
 
+.box-header {
+  width: 100%;
+}
+
 .conteiner {
   margin: 0 auto;
   padding: 0 15px;
@@ -42,7 +46,7 @@ img {
 
 @media screen and (min-width: 480px) {
   .conteiner {
-    width: 480px;
+    min-width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -212,6 +216,9 @@ img {
   padding-right: 10px;
   letter-spacing: 0.02em;
   color: #2196f3;
+}
+
+.header__link-join:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 

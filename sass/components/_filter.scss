@@ -1,8 +1,9 @@
 .portfolio__box{
-    padding-top: 45px;
+    padding-top: 60px;
     padding-bottom: 60px;
   }
   .filter-button {
+    display: flex;
     font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
@@ -12,7 +13,7 @@
     color: $black-color;
     background-color: $background-grey;
     cursor: pointer;  
-    padding-left: 0;
+    padding: 6px 22px 6px 22px;
     border-radius: 4px; 
     border: none;
     margin-top: 15px;
@@ -22,9 +23,8 @@
     background-color 250ms $cubic;
   }
   .portfolio__filter-item:not(:last-child){
-    padding-right: 8px;
+    margin-right: 8px;
   }
-  
   .filter-button:hover,
   .filter-button:focus {
     color: $white-color;
@@ -45,11 +45,15 @@
 
 }
 @media screen and (min-width: 768px) {
+  .filter-button{
+    margin-top: 0px;
+  }
   .portfolio__filter-list {
     justify-content: center;
     margin-bottom: 30px;
 
   }
+
 
 
 }

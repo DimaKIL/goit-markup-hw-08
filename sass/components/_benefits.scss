@@ -2,6 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
   .benefits__item::before{
   content: '';
     display: inline-block;  
@@ -46,8 +47,11 @@
     letter-spacing: 0.03em;
     margin-top: 10px;
   }
-  .benefits__text:not(:last-child){
-    margin-bottom: 30px;
+  @media screen and (max-width: 768px) {
+    .benefits__item:not(:last-child){
+      margin-bottom: 30px;
+    }
+
   }
   @media screen and (min-width: 480px) {
 

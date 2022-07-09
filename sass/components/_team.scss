@@ -44,8 +44,8 @@
   
   .team{
     background-color: $background-grey;
-    padding-bottom: 60px;
-    padding-top: 60px;
+     padding-top: 60px;
+     padding-bottom: 60px;
     &__tital {
         font-style: normal;
         font-weight: 700;
@@ -70,7 +70,7 @@
       
   }
   .team__item:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .card-team__link:focus,
    .card-team__link:hover{
@@ -102,6 +102,11 @@
       font-size: 36px;
 line-height: 42px;
 margin-bottom: 50px;
+
+    }
+    .team{
+      padding-top: 94px;
+      padding-bottom: 94px;
     }
 
   }

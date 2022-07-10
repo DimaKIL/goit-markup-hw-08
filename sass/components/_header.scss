@@ -20,17 +20,20 @@
         color: $blue-color;
     }
     &__button{
+        position: absolute;
+        right: 15px;
+        top: 10px;
         display: inline-flex;
         margin: 0;
         padding: 0;
         border: 0;
         background-color: transparent;
+        &.is-open{
+            // position: fixed;
+        }
         
     }
     &__icon{
-        position: absolute;
-        right: 15px;
-        top: 10px;
         z-index: 2;
     }
 }

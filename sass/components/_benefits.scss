@@ -27,6 +27,8 @@
     background-image: url(../imeges/icons.svg/benefits4.svg);
   }
   .benefits__list {
+    // margin: 0 auto;
+    // max-width: 450px;
     list-style: none;
   }
   .benefits__tital {
@@ -47,11 +49,14 @@
     letter-spacing: 0.03em;
     margin-top: 10px;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .benefits__item:not(:last-child){
       margin-bottom: 30px;
     }
-
+    .benefits__list {
+      margin: 0 auto;
+      max-width: 450px;
+    }
   }
   @media screen and (min-width: 480px) {
 

@@ -80,10 +80,6 @@
     box-shadow 250ms $cubic,
     background-color 250ms $cubic;
   }
-  .portfolio__filter-item:not(:last-child){
-    padding-right: 8px;
-  }
-  
   .filter-button:hover,
   .filter-button:focus {
     color: $white-color;
